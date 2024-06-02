@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NavBar */
+
+.navbar{
+    display: flex;
+    height: 40px;
+    margin-top: 24px;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.nav-logo{
+    background-image: url("assets/Logo.png");
+    height: 30px;
+    width: 90px;
+    background-size: cover;
+}
+
+.nav-logo:hover{
+    background-image: none;
+}
+
+.nav-ops{
+    margin-right: 400px;
+}
+
+.nav-ops ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    color: #939090;
+    font-weight: 700;
+}
+
+.nav-ops li:hover{
+    color: #5955b3;
+    font-size: 1.2rem;
+}
+
+.home{
+    color: black;
+}
+
+.nav-ops li{
+    display: inline;    
+}
+
+.nav-button button{
+    background-color: #5955b3;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.81rem;
+    border: none;
+}
+
+/* Banner */
+.banner{
+    height: 594px;
+    width: 100%;
+    align-self: center;
+    margin-left: 80px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.banner-text{
+    height: 550px;
+    font-size: 2rem;
+    color: #3c2f60;
+}
+
+.heading{
+    height: 230px;
+    width: 440px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.para{
+    width: 300px;
+    margin-left: 35px;
+    color: #939090;
+    font-size: 0.9rem;
+}
+
+.banner-button{
+    width: 150px;
+    height: 50px;
+}
+
+.banner-text button{
+    width: 150px;
+    height: 50px;
+    background-color: #5955b3;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.81rem;
+    border: none;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.banner-img{
+    background-image: url("assets/Header\ Illustration.png");
+    height: 550px;
+    width: 700px;
+    background-size: cover;
+    margin-top: 64px;
+}
+
